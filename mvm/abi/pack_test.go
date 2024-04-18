@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/a1146910248/mixchain/mvm/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

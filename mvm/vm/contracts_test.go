@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/a1146910248/mixchain/mvm/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

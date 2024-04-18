@@ -2,6 +2,7 @@ package mvm
 
 import (
 	"math/big"
+	"mixchain/mvm/common"
 	"mixchain/mvm/vm"
 )
 

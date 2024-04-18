@@ -1,5 +1,7 @@
 package types
 
+import "mixchain/mvm/common"
+
 type Log struct {
 	// Consensus fields:
 	// address of the contract that generated the event

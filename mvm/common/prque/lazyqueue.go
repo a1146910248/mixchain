@@ -21,7 +21,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/a1146910248/mixchain/mvm/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

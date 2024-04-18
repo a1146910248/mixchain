@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/a1146910248/mixchain/mvm/common/mclock"
 )
 
 const (

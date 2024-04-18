@@ -29,8 +29,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
 	"golang.org/x/crypto/sha3"
+
+	"github.com/a1146910248/mixchain/mvm/common/hexutil"
 )
 
 // Lengths of hashes and addresses in bytes.

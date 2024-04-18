@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/ethereum/go-ethereum/params/forks"
 )
 

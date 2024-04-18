@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/a1146910248/mixchain/mvm/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

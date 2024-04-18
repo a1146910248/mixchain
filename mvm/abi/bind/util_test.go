@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient/simulated"

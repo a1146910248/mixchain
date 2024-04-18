@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/a1146910248/mixchain/mvm/common/math"
 )
 
 func TestCheckCompatible(t *testing.T) {
