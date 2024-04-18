@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	"github.com/a1146910248/mixchain/mvm/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/a1146910248/mixchain/mvm/types"
 )
 
 var (

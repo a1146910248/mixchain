@@ -19,10 +19,10 @@ package vm
 import (
 	"fmt"
 
+	"github.com/a1146910248/mixchain/crypto"
 	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/a1146910248/mixchain/mvm/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/a1146910248/mixchain/mvm/tracing"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/holiman/uint256"
 )

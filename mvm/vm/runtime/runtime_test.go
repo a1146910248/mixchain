@@ -24,17 +24,17 @@ import (
 	"testing"
 
 	"github.com/a1146910248/mixchain/mvm/common"
+	"github.com/a1146910248/mixchain/mvm/params"
+	"github.com/a1146910248/mixchain/mvm/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/consensus"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/core/asm"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/eth/tracers"
 	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
 
 	// force-load js tracers to trigger registration
 	_ "github.com/ethereum/go-ethereum/eth/tracers/js"

@@ -26,10 +26,10 @@ import (
 
 	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/a1146910248/mixchain/mvm/common/hexutil"
+	"github.com/a1146910248/mixchain/mvm/params"
+	"github.com/a1146910248/mixchain/mvm/types"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
 )
 

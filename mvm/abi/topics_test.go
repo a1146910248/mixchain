@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/a1146910248/mixchain/crypto"
 	"github.com/a1146910248/mixchain/mvm/common"
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

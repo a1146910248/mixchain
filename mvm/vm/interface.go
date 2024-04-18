@@ -20,9 +20,9 @@ import (
 	"math/big"
 
 	"github.com/a1146910248/mixchain/mvm/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/a1146910248/mixchain/mvm/params"
+	"github.com/a1146910248/mixchain/mvm/tracing"
+	"github.com/a1146910248/mixchain/mvm/types"
 	"github.com/holiman/uint256"
 )
 

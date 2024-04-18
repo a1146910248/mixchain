@@ -24,8 +24,8 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/a1146910248/mixchain/crypto"
 	"github.com/a1146910248/mixchain/mvm/common"
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // The ABI holds information about a contract's context and available

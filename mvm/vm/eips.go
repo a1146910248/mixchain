@@ -21,7 +21,7 @@ import (
 	"sort"
 
 	"github.com/a1146910248/mixchain/mvm/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/a1146910248/mixchain/mvm/params"
 	"github.com/holiman/uint256"
 )
 

@@ -18,7 +18,7 @@ package vm
 
 import (
 	"github.com/a1146910248/mixchain/mvm/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/a1146910248/mixchain/mvm/tracing"
 	"github.com/holiman/uint256"
 )
 

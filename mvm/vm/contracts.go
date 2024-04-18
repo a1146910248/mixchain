@@ -25,15 +25,15 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
+	"github.com/a1146910248/mixchain/crypto"
+	"github.com/a1146910248/mixchain/crypto/blake2b"
+	"github.com/a1146910248/mixchain/crypto/bls12381"
+	"github.com/a1146910248/mixchain/crypto/bn256"
+	"github.com/a1146910248/mixchain/crypto/kzg4844"
 	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/a1146910248/mixchain/mvm/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
-	"github.com/ethereum/go-ethereum/crypto/bls12381"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/a1146910248/mixchain/mvm/params"
+	"github.com/a1146910248/mixchain/mvm/tracing"
 )
 
 // PrecompiledContract is the basic interface for native Go contracts. The implementation

@@ -22,7 +22,7 @@ import (
 
 	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/a1146910248/mixchain/mvm/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/a1146910248/mixchain/mvm/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

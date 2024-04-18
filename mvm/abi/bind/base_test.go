@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/a1146910248/mixchain/crypto"
 	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/a1146910248/mixchain/mvm/common/hexutil"
+	"github.com/a1146910248/mixchain/mvm/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 )

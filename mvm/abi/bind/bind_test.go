@@ -289,8 +289,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -345,8 +345,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -391,8 +391,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -449,8 +449,8 @@ var bindTests = []struct {
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
 			"github.com/a1146910248/mixchain/mvm/common"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -497,8 +497,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -564,8 +564,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -610,7 +610,7 @@ var bindTests = []struct {
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
 			"github.com/a1146910248/mixchain/mvm/common"
-			"github.com/ethereum/go-ethereum/core/types"
+			"github.com/a1146910248/mixchain/mvm/types"
 		`,
 		`
 			// Create a simulator and wrap a non-deployed contract
@@ -649,7 +649,7 @@ var bindTests = []struct {
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
 			"github.com/a1146910248/mixchain/mvm/common"
-			"github.com/ethereum/go-ethereum/core/types"
+			"github.com/a1146910248/mixchain/mvm/types"
 		`,
 		`
 			// Create a simulator and wrap a non-deployed contract
@@ -696,8 +696,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -746,8 +746,8 @@ var bindTests = []struct {
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
 			"github.com/a1146910248/mixchain/mvm/common"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -821,8 +821,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -915,8 +915,8 @@ var bindTests = []struct {
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
 			"github.com/a1146910248/mixchain/mvm/common"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1105,8 +1105,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1240,8 +1240,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 
 		`
@@ -1382,8 +1382,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1448,8 +1448,8 @@ var bindTests = []struct {
 
 		"github.com/ethereum/go-ethereum/accounts/abi/bind"
 		"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-		"github.com/ethereum/go-ethereum/core/types"
-		"github.com/ethereum/go-ethereum/crypto"
+		"github.com/a1146910248/mixchain/mvm/types"
+		"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 		// Initialize test accounts
@@ -1536,8 +1536,8 @@ var bindTests = []struct {
 
 		"github.com/ethereum/go-ethereum/accounts/abi/bind"
 		"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-		"github.com/ethereum/go-ethereum/crypto"
-		"github.com/ethereum/go-ethereum/core/types"
+		"github.com/a1146910248/mixchain/crypto"
+		"github.com/a1146910248/mixchain/mvm/types"
 		`,
 		`
 		// Initialize test accounts
@@ -1599,8 +1599,8 @@ var bindTests = []struct {
 
 		"github.com/ethereum/go-ethereum/accounts/abi/bind"
 		"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-		"github.com/ethereum/go-ethereum/crypto"
-		"github.com/ethereum/go-ethereum/core/types"
+		"github.com/a1146910248/mixchain/crypto"
+		"github.com/a1146910248/mixchain/mvm/types"
         `,
 		`
 		key, _ := crypto.GenerateKey()
@@ -1661,8 +1661,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1722,8 +1722,8 @@ var bindTests = []struct {
 	
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 	   `,
 		`
 			key, _ := crypto.GenerateKey()
@@ -1810,8 +1810,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 			"github.com/ethereum/go-ethereum/eth/ethconfig"
 	   `,
 		`
@@ -1881,8 +1881,8 @@ var bindTests = []struct {
 	
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 			"github.com/ethereum/go-ethereum/eth/ethconfig"
 	   `,
 		`
@@ -1934,8 +1934,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 			"github.com/ethereum/go-ethereum/eth/ethconfig"
 		`,
 		tester: `
@@ -1983,8 +1983,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 			"github.com/ethereum/go-ethereum/eth/ethconfig"
 		`,
 		tester: `
@@ -2024,8 +2024,8 @@ var bindTests = []struct {
 
 			"github.com/ethereum/go-ethereum/accounts/abi/bind"
 			"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-			"github.com/ethereum/go-ethereum/core/types"
-			"github.com/ethereum/go-ethereum/crypto"
+			"github.com/a1146910248/mixchain/mvm/types"
+			"github.com/a1146910248/mixchain/crypto"
 			"github.com/ethereum/go-ethereum/eth/ethconfig"
 		`,
 		tester: `

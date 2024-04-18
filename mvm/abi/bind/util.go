@@ -21,8 +21,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/a1146910248/mixchain/mvm/types"
 	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -21,8 +21,8 @@ import (
 
 	"github.com/a1146910248/mixchain/mvm/common"
 	"github.com/a1146910248/mixchain/mvm/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/a1146910248/mixchain/mvm/params"
+	"github.com/a1146910248/mixchain/mvm/tracing"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

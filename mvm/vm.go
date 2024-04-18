@@ -1,9 +1,9 @@
 package mvm
 
 import (
+	"github.com/a1146910248/mixchain/mvm/common"
+	"github.com/a1146910248/mixchain/mvm/vm"
 	"math/big"
-	"mixchain/mvm/common"
-	"mixchain/mvm/vm"
 )
 
 // NewEVMContext creates a new context for use in the EVM.
