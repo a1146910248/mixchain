@@ -195,10 +195,11 @@ func (evm *EVM) Call(caller ContractRef, addr common.Address, input []byte, gas 
 		return nil, gas, ErrInsufficientBalance
 	}
 	snapshot := evm.StateDB.Snapshot()
-	p, isPrecompile := evm.precompile(addr)
+	//p, isPrecompile := evm.precompile(addr)
 
 	if !evm.StateDB.Exist(addr) {
-		if !isPrecompile && evm.chainRules.IsEIP158 && value.IsZero() {
+		if value.IsZero() {
+			//if !isPrecompile && evm.chainRules.IsEIP158 && value.IsZero() {
 			// Calling a non-existing account, don't do anything.
 			return nil, gas, nil
 		}
@@ -207,25 +208,25 @@ func (evm *EVM) Call(caller ContractRef, addr common.Address, input []byte, gas 
 	// 转账
 	evm.Context.Transfer(evm.StateDB, caller.Address(), addr, value)
 
-	if isPrecompile {
-		ret, gas, err = RunPrecompiledContract(p, input, gas, evm.Config.Tracer)
+	//if isPrecompile {
+	//	ret, gas, err = RunPrecompiledContract(p, input, gas, evm.Config.Tracer)
+	//} else {
+	// Initialise a new contract and set the code that is to be used by the EVM.
+	// The contract is a scoped environment for this execution context only.
+	code := evm.StateDB.GetCode(addr)
+	if len(code) == 0 {
+		ret, err = nil, nil // gas is unchanged
 	} else {
-		// Initialise a new contract and set the code that is to be used by the EVM.
-		// The contract is a scoped environment for this execution context only.
-		code := evm.StateDB.GetCode(addr)
-		if len(code) == 0 {
-			ret, err = nil, nil // gas is unchanged
-		} else {
-			addrCopy := addr
-			// If the account has no code, we can abort here
-			// The depth-check is already done, and precompiles handled above
-			// 不管是部署合约还是调用合约都要先创建合约对象 把合约加载出来挂到合约对象下
-			contract := NewContract(caller, AccountRef(addrCopy), value, gas)
-			contract.SetCallCode(&addrCopy, evm.StateDB.GetCodeHash(addrCopy), code)
-			ret, err = evm.interpreter.Run(contract, input, false)
-			gas = contract.Gas
-		}
+		addrCopy := addr
+		// If the account has no code, we can abort here
+		// The depth-check is already done, and precompiles handled above
+		// 不管是部署合约还是调用合约都要先创建合约对象 把合约加载出来挂到合约对象下
+		contract := NewContract(caller, AccountRef(addrCopy), value, gas)
+		contract.SetCallCode(&addrCopy, evm.StateDB.GetCodeHash(addrCopy), code)
+		ret, err = evm.interpreter.Run(contract, input, false)
+		gas = contract.Gas
 	}
+	//}
 	// When an error was returned by the EVM or when setting the creation code
 	// above we revert to the snapshot and consume any gas remaining. Additionally,
 	// when we're in homestead this also counts for code storage gas errors.
@@ -243,6 +244,7 @@ func (evm *EVM) Call(caller ContractRef, addr common.Address, input []byte, gas 
 		//	evm.StateDB.DiscardSnapshot(snapshot)
 	}
 	return ret, gas, err
+
 }
 
 // CallCode executes the contract associated with the addr with the given input
