@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/a1146910248/mixchain/mvm"
+	"github.com/a1146910248/mixchain/mvm/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {
@@ -29,8 +29,8 @@ func NewEnv(cfg *Config) *vm.EVM {
 		BlobFeeCap: cfg.BlobFeeCap,
 	}
 	blockContext := vm.BlockContext{
-		CanTransfer: core.CanTransfer,
-		Transfer:    core.Transfer,
+		CanTransfer: mvm.CanTransfer,
+		Transfer:    mvm.Transfer,
 		GetHash:     cfg.GetHashFn,
 		Coinbase:    cfg.Coinbase,
 		BlockNumber: cfg.BlockNumber,
